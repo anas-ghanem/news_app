@@ -1,0 +1,2 @@
+C:/Users/turki/news_app/android/app/.cxx/Debug/1g53434l/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/turki/news_app/android/app/.cxx/Debug/1g53434l/x86_64/CMakeFiles/rebuild_cache.dir
