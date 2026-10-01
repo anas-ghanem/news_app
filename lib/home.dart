@@ -30,9 +30,9 @@ class Home extends StatelessWidget {
         body: CustomScrollView(
           slivers: [
             SliverToBoxAdapter(
-              child: category_listview(),
+              child: CategoryListView(),
             ),
-            post_listview_bulder(cate: "general")
+            const PostListViewBuilder(cate: "general")
           ],
         ));
   }

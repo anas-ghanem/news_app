@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:news_app/category.dart';
 import 'package:news_app/model/category_model.dart';
 
-class category_listview extends StatelessWidget {
-  final List<category_model> categorys = const [
-    category_model(category_name: "sports", image: "assets/sports.jpg"),
-    category_model(category_name: "business", image: "assets/business.jpg"),
-    category_model(category_name: "health", image: "assets/health.jpg"),
-    category_model(category_name: "science", image: "assets/science.jpg"),
-    category_model(category_name: "technology", image: "assets/technology.jpg")
+class CategoryListView extends StatelessWidget {
+  final List<CategoryModel> categorys = const [
+    CategoryModel(categoryName: "sports", image: "assets/sports.jpg"),
+    CategoryModel(categoryName: "business", image: "assets/business.jpg"),
+    CategoryModel(categoryName: "health", image: "assets/health.jpg"),
+    CategoryModel(categoryName: "science", image: "assets/science.jpg"),
+    CategoryModel(categoryName: "technology", image: "assets/technology.jpg")
   ];
-  const category_listview({
+  const CategoryListView({
     super.key,
   });
 

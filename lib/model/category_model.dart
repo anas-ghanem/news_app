@@ -1,7 +1,5 @@
-import 'package:flutter/material.dart';
-
-class category_model {
+class CategoryModel {
   final String image;
-  final String category_name;
- const category_model({required this.category_name, required this.image});
+  final String categoryName;
+  const CategoryModel({required this.categoryName, required this.image});
 }

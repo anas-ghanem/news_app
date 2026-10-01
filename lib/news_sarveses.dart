@@ -1,4 +1,4 @@
-import 'dart:ffi';
+
 
 import 'package:dio/dio.dart';
 import 'package:news_app/model/articale_model.dart';
@@ -20,7 +20,8 @@ class NewsSarveses {
       }
       return arteclslist;
     } on Exception catch (e) {
-      for (int i = 0; i < 100; i++) print("eroor");
+      // ignore: avoid_print
+      print(e);
       return [];
     }
   }

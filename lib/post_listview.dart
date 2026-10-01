@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:news_app/model/articale_model.dart';
 import 'package:news_app/post_style.dart';
 
-class post_listview extends StatelessWidget {
+class PostListView extends StatelessWidget {
   final List<ArticaleModel> artical;
-  const  post_listview({required this.artical}); 
+  const PostListView({super.key, required this.artical}); 
   @override
   Widget build(BuildContext context) {
     return SliverList(

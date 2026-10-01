@@ -4,13 +4,13 @@ import 'package:news_app/model/category_model.dart';
 
 class Category extends StatelessWidget {
   const Category({super.key, required this.category});
-  final category_model category;
+  final CategoryModel category;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
         Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-          return CategoryView(categ: category.category_name,);
+          return CategoryView(categ: category.categoryName,);
         }));
       },
       child: Padding(
@@ -24,8 +24,8 @@ class Category extends StatelessWidget {
                   image: AssetImage(category.image), fit: BoxFit.fill)),
           child: Center(
               child: Text(
-            category.category_name,
-            style: TextStyle(
+            category.categoryName,
+            style: const TextStyle(
                 color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold),
           )),
         ),

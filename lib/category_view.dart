@@ -10,7 +10,7 @@ class CategoryView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text(categ),),
       body: CustomScrollView(
-        slivers: [post_listview_bulder(cate: categ,)],
+        slivers: [PostListViewBuilder(cate: categ,)],
       ),
     );
   }
