@@ -5,7 +5,8 @@ A modern, responsive News Application built with Flutter. The app fetches real-t
 ## 📸 App Preview
 > **Note:** Drag and drop your screenshots or a short GIF of the app here.
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="250">
+  <img width="1440" height="3120" alt="Screenshot_1790848488" src="https://github.com/user-attachments/assets/d6236b32-163f-422c-bc68-691ade183328" />
+
 </p>
 
 ## ✨ Key Features
